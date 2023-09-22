@@ -1,23 +1,23 @@
-let result= document.getElementById("inputext");
+let result = document.getElementById("inputext");
 
-let calculate=(number)=>{
-    result.value = result.value +number;
+let calculate = (number) => {
+    result.value = result.value + number;
 }
 
-let Result=()=>{
-    try{
+let Result = () => {
+    try {
 
-        result.value=eval(result.value)
+        result.value = eval(result.value)
     }
-    catch(err){
+    catch (err) {
         alert("Enter a valid imput")
-    } 
+    }
 }
 
-function clr(){
-     result.value="";
+function clr() {
+    result.value = "";
 }
 
-function del(){
-    result.value= result.value.slice(0, -1)
+function del() {
+    result.value = result.value.slice(0, -1)
 }
