@@ -1,2 +1,2 @@
 # Calculator.js 
-This is my first major project
+first calculator project
